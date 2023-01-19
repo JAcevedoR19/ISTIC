@@ -1,0 +1,858 @@
+header, section {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: verdana;
+	margin-bottom: auto;
+
+}
+
+body {
+	background: url(multimedia/animes1.jpeg);
+}
+
+header {
+    width: 100%;
+	height: 120px;
+    display: flex;
+    margin: auto auto;
+    background-color: black;
+    justify-content: space-between;
+    margin-top: 0;
+
+}
+
+
+
+#cabecera {
+	height: 95px;
+	width: 280px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+	background-image: url(multimedia/pikachu.jpg);
+	background-size: cover;
+	border-radius: 20px 50px;
+	border: 2px orange solid;
+
+}
+
+#cabecera image {
+	height: 95px;
+	width: 280px;
+}
+
+#cabecera a {
+    text-decoration: none;
+    color: rgb(28, 95, 184);
+}
+
+h1 {
+	font-family: goudy stout;
+	margin: 0;
+	margin-left: 17px;
+	margin-top: 5px;
+	color: rgb(28, 95, 184);
+	font-size: 32px;
+	-webkit-text-stroke: 1px rgb(13, 72, 121);
+}
+
+#Shonen h2 {
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: red;
+	
+}
+
+.botonera {
+	height: 60px;
+	width: auto;
+    margin-right: 2rem;
+	background-color: turquoise;
+	margin-top: 20px;
+	border-radius: 20px;
+	border: 2px orange solid;
+
+}
+
+.botonera ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.botonera ul li {
+	display: inline;
+}
+
+.botonera ul li a {
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+    text-align: center;
+}
+
+.botonera ul li a:hover {
+	background-color: orange;
+    border-radius: 20px;
+
+}
+
+#caja_shonen_b h2 {
+	text-align: center;
+	text-decoration-line: line-through;
+	text-decoration-color: red;
+}
+
+#Shonen {
+	background-color: orange;
+    height: max-content;
+    margin-top: 10px;
+    margin-left: 25%;
+
+}
+
+#caja_shonen_a {
+	background-color: white;
+    height: 500px;
+	margin-bottom: 5px;
+}
+
+#caja_shonen_b {
+	background-color: white;
+    height: 300px;
+	margin-bottom: 5px;
+}
+
+.carousel-inner img {
+	height: 500px;
+}
+
+.subirdatos {
+    background-color: orange;
+    display: flex;
+    margin: auto auto;
+    height: max-content;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.formulario {
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.subirdatos img {
+    width: 400px;
+    height: 320px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.menu {
+    height: max-content;
+	width: max-content;
+    position: absolute;
+    display: flex;
+    margin-left: 1rem;
+	background-color: turquoise;
+	margin-top: 20px;
+	border-radius: 20px;
+	border: 2px orange solid;
+}
+
+.menu table {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu table td {
+	display: inline;
+}
+
+.menu table td a {
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+    text-align: center;
+}
+
+.menu table td a:hover {
+	background-color: orange;
+    border-radius: 20px;
+
+}
+
+#Shonen h3 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+	text-decoration-color: red;
+	font-family: 'Rubik Glitch', cursive;
+}
+
+.videos {
+    margin-top: 15px;
+    justify-content: center;
+}
+
+
+iframe {
+    margin-left: 12rem;
+}
+
+.mostrardatos {
+    background-color: whitesmoke;
+}
+
+.ocupados {
+	background-color: whitesmoke;
+}
+
+.ocupados h3 {
+    padding: auto;
+    text-align: center;
+	text-decoration:underline;
+	text-decoration-color: red;
+	justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.ocupados p {
+    margin-left: 2rem;
+}
+
+.idocupado {
+	text-align: center;
+	justify-content: center;
+}
+
+.linea {
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-bottom: 10px;
+}
+
+.siono {
+	background-color: whitesmoke;
+	/* justify-content: center;
+	align-items: center; */
+}
+
+.siono p {
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+#pulgar img{
+	margin-left: 330px;
+	width: 300px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.mostrardatos {
+	background-color: orange;
+    height: max-content;
+    margin-top: 10px;
+
+}
+
+.mostrardatos h3 {
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: red;
+	margin-bottom: 2rem;
+	font-family: 'Rubik Glitch', cursive;
+	font-size: 3rem;
+}
+
+.mostrardatos iframe {
+	margin-left: 2rem;
+	width: 500px;
+	height: 350px;
+}
+
+
+.cajamostrar {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: flex;
+    margin: auto auto;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.cajamostrar span {
+	-webkit-text-stroke: 1px rgb(13, 72, 121);
+}
+
+.lineanueva {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.subirdatos h5 {
+	color: black;
+}
+
+.borrardatos {
+	background-color: orange;
+    height: max-content;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.borrardatos h3 {
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: red;
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	font-family: 'Creepster', cursive;
+}
+
+.btn {
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: rgb(25, 98, 167);
+	text-align: center;
+	-webkit-text-fill-color: orange;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn:hover {
+	background-color: aqua;
+}
+
+.formu {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.pies {
+	width: 100%;
+	height: 70px;
+    display: flex;
+    margin: auto auto;
+	background-color: black;
+    
+}
+
+.pie_izquierdo {
+    width: max-content;
+    height: max-content;
+    margin: 20% auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pie_izquierdo h5 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    margin-top: 10px;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+.pie_derecho {
+    width: max-content;
+    height: max-content;
+    margin: auto 10%;
+
+}
+
+.pie_derecho h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: orange;
+    
+}
+
+.pie_derecho i {
+    font-size: 25px;
+    padding: 5px;
+    color: orange;
+}
+
+.pie_izquierdo i {
+    font-size: 15px;
+}
+
+.lineadivi {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5px;
+    border-bottom: solid;
+    border-width: 45px;
+    border-color: orange;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* font-family: 'Creepster', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rubik Glitch', cursive */
+
+
+/* pantalla maximo 1210px */
+@media screen and (max-width:1210px) {
+	
+	section {
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: verdana;
+		margin-bottom: auto;
+	
+	}
+	
+	
+	header {
+		width: 100%;
+		height: auto;
+		display: flex;
+		background-color: black;
+		justify-content: space-evenly;
+		margin-top: 0;
+		/* flex-wrap: wrap; */
+	
+	}
+	
+	
+	
+	#cabecera {
+		max-height:max-content;
+		max-width: max-content;
+		margin-top: 1rem;
+		background-image: url(multimedia/pikachu.jpg);
+		background-size: cover;
+		border-radius: 20px 50px;
+		border: 2px orange solid;
+	
+	}
+	
+	#cabecera image {
+		height: 100px;
+		max-width: max-content;
+	}
+	
+	#cabecera a {
+		text-decoration: none;
+		color: rgb(28, 95, 184);
+	}
+	
+	h1 {
+		font-family: goudy stout;
+		margin: 0;
+		margin-left: 17px;
+		margin-top: 15px;
+		color: rgb(28, 95, 184);
+		font-size: 32px;
+		-webkit-text-stroke: 1px rgb(13, 72, 121);
+		max-width: max-content;
+	}
+	
+	#Shonen h2 {
+		text-align: center;
+		text-decoration: line-through;
+		text-decoration-color: red;
+		
+	}
+	
+	.botonera {
+		max-height: max-content;
+		max-width: max-content;
+		background-color: turquoise;
+		margin-top: 20px;
+		border-radius: 20px;
+		border: 2px orange solid;
+		display: flex;
+		flex-wrap: wrap;
+	
+	}
+	
+	.botonera ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	
+	.botonera ul li {
+		display: inline-block;
+		
+	}
+	
+	.botonera ul li a {
+		padding: 15px;
+		text-decoration: none;
+		color: black;
+		text-align: center;
+	}
+	
+	.botonera ul li a:hover {
+		background-color: orange;
+		border-radius: 20px;
+	
+	}
+	
+	#caja_shonen_b h2 {
+		text-align: center;
+		text-decoration-line: line-through;
+		text-decoration-color: red;
+	}
+	
+	#Shonen {
+		background-color: orange;
+		height: max-content;
+		margin-top: 10px;
+		margin-left: 25%;
+	
+	}
+	
+	#caja_shonen_a {
+		background-color: white;
+		height: 500px;
+		margin-bottom: 5px;
+	}
+	
+	#caja_shonen_b {
+		background-color: white;
+		height: 300px;
+		margin-bottom: 5px;
+	}
+	
+	.carousel-inner img {
+		height: 500px;
+	}
+	
+	.subirdatos {
+		background-color: orange;
+		display: flex;
+		margin: auto auto;
+		height: max-content;
+		margin-top: 10px;
+		padding: 10px;
+		justify-content: center;
+	}
+	
+	.formulario {
+		margin-right: 30px;
+		padding: 10px;
+	}
+	
+	.subirdatos img {
+		width: 400px;
+		height: 320px;
+		padding: 10px;
+		margin-left: 10px;
+	}
+	
+	.menu {
+		height: max-content;
+		width: max-content;
+		position: absolute;
+		display: flex;
+		margin-left: 1rem;
+		background-color: turquoise;
+		margin-top: 20px;
+		border-radius: 20px;
+		border: 2px orange solid;
+	}
+	
+	.menu table {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	
+	.menu table td {
+		display: inline;
+	}
+	
+	.menu table td a {
+		display: inline-block;
+		padding: 15px;
+		text-decoration: none;
+		color: black;
+		text-align: center;
+	}
+	
+	.menu table td a:hover {
+		background-color: orange;
+		border-radius: 20px;
+	
+	}
+	
+	#Shonen h3 {
+		text-align: center;
+		color: black;
+		text-decoration: underline;
+		text-align: center;
+		text-decoration-color: red;
+		font-family: 'Rubik Glitch', cursive;
+	}
+	
+	.videos {
+		margin-top: 15px;
+		justify-content: center;
+	}
+	
+	
+	iframe {
+		margin-left: 12rem;
+	}
+	
+	.mostrardatos {
+		background-color: whitesmoke;
+	}
+	
+	.ocupados {
+		background-color: whitesmoke;
+	}
+	
+	.ocupados h3 {
+		padding: auto;
+		text-align: center;
+		text-decoration:underline;
+		text-decoration-color: red;
+		justify-content: center;
+		font-family:'Times New Roman', Times, serif;
+	}
+	
+	.ocupados p {
+		margin-left: 2rem;
+	}
+	
+	.idocupado {
+		text-align: center;
+		justify-content: center;
+	}
+	
+	.linea {
+		margin-left: auto;
+		margin-right: auto;
+		width: 150px;
+		border-bottom: solid;
+		border-width: 5px;
+		border-color: red;
+		margin-bottom: 10px;
+	}
+	
+	.siono {
+		background-color: whitesmoke;
+		/* justify-content: center;
+		align-items: center; */
+	}
+	
+	.siono p {
+		text-align: center;
+		color: black;
+		text-decoration: underline;
+		text-decoration-color: red;
+	}
+	
+	#pulgar img{
+		margin-left: 330px;
+		width: 300px;
+		height: 200px;
+		margin-bottom: 20px;
+	}
+	
+	.mostrardatos {
+		background-color: orange;
+		height: max-content;
+		margin-top: 10px;
+	
+	}
+	
+	.mostrardatos h3 {
+		color: black;
+		text-align: center;
+		text-decoration: underline;
+		text-decoration-color: red;
+		margin-bottom: 2rem;
+		font-family: 'Rubik Glitch', cursive;
+		font-size: 3rem;
+	}
+	
+	.mostrardatos iframe {
+		margin-left: 2rem;
+		width: 500px;
+		height: 350px;
+	}
+	
+	
+	.cajamostrar {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		display: flex;
+		margin: auto auto;
+		box-sizing: border-box;
+		justify-content: center;
+	}
+	
+	.cajamostrar span {
+		-webkit-text-stroke: 1px rgb(13, 72, 121);
+	}
+	
+	.lineanueva {
+		margin-left: auto;
+		margin-right: auto;
+		width: 700px;
+		border-bottom: solid;
+		border-width: 5px;
+		border-color: red;
+		margin-bottom: 50px;
+		margin-top: 20px;
+	}
+	
+	.subirdatos h5 {
+		color: black;
+	}
+	
+	.borrardatos {
+		background-color: orange;
+		height: max-content;
+		margin-top: 10px;
+		padding: 10px;
+	
+	}
+	
+	.borrardatos h3 {
+		color: black;
+		text-align: center;
+		text-decoration: underline;
+		text-decoration-color: red;
+		margin-bottom: 2rem;
+		font-size: 3rem;
+		font-family: 'Creepster', cursive;
+	}
+	
+	.btn {
+		border-radius: 10px;
+		text-decoration: none;
+		background-color: rgb(25, 98, 167);
+		text-align: center;
+		-webkit-text-fill-color: orange;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.btn:hover {
+		background-color: aqua;
+	}
+	
+	.formu {
+		font-family: 'Permanent Marker', cursive;
+	}
+	
+	.pies {
+		width: 100%;
+		height: 70px;
+		display: flex;
+		margin: auto auto;
+		background-color: black;
+		
+	}
+	
+	.pie_izquierdo {
+		width: max-content;
+		height: max-content;
+		margin: 20% auto;
+		margin-top: 10px;
+		align-items: center;
+		justify-content: center;
+		
+	}
+	
+	.pie_izquierdo h5 {
+		text-align: center;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		color: orange;
+		margin-top: 10px;
+		margin-bottom: auto;
+		font-weight: bold;
+	}
+	
+	.pie_derecho {
+		width: max-content;
+		height: max-content;
+		margin: auto 10%;
+	
+	}
+	
+	.pie_derecho h5 {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		text-align: center;
+		color: orange;
+		
+	}
+	
+	.pie_derecho i {
+		font-size: 25px;
+		padding: 5px;
+		color: orange;
+	}
+	
+	.pie_izquierdo i {
+		font-size: 15px;
+	}
+	
+	.lineadivi {
+		margin-left: auto;
+		margin-right: auto;
+		width: 5px;
+		border-bottom: solid;
+		border-width: 45px;
+		border-color: orange;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+
+}
+  
+   
+  /* pantalla maximo 700px */
+  @media screen and (max-width:700px) {
+	aside,section {
+	  float:none;
+	  width:96%;
+	  font-size:1.2em;
+	}
+	nav, section {
+	  font-size:1.2em;
+	}
+	aside {
+	  margin-top:5px;
+	  background:#333;
+	  color: #fff;
+	}
+	nav ul {
+	  float:none;
+	  clear:both;
+	}
+  }
+
+
