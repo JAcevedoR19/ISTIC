@@ -1,0 +1,5 @@
+Cereal 350 130 
+Pan 20 150 
+Leche 300 85 
+Yogurt 280 48 
+Aguacates 300 1 
