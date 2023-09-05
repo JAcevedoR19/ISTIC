@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #323964;
+}
+
+h1, h2 {
+    margin: 1rem 0;
+}
+
+header {
+    height: 20vh;
+    background: linear-gradient(to right, rgb(14, 119, 180), rgb(236, 75, 47));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-height: 80vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(32, 31, 31);
+    color: aliceblue;
+    padding-right: 2rem;
+}
+
+.card {
+    border-color: rgb(56, 56, 56);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin: 2rem;
+}
+input {
+    border-color: rgb(116, 116, 116);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    background-color: #232323;
+    padding: 5px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4c4b4b;
+}
+
+.btn-delete {
+    color: rgb(172, 40, 40);
+    cursor: pointer;
+}
+
+.btn-detalle{
+    color: rgb(46, 66, 180);
+    cursor: pointer;
+}
+
+.btn-update {
+    color: rgb(33, 192, 99);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#particles-js {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+main div {
+    background: whitesmoke;
+    opacity: 1;
+}
